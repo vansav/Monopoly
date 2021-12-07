@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "windows.h"
-#include "biblio_fonction_préparation.h"
+#include "biblio_fonction_preparation.h"
 #include "structures.h"
 
 void afficherPlateau(t_case TAB[Lenghtableau] )
@@ -16,7 +16,7 @@ void afficherPlateau(t_case TAB[Lenghtableau] )
 
 }
 
-void affichage_Tableau(char TABLEAU[LENTABLEAU])
+void affichage_plateauDeJeu(char TABLEAU[LENTABLEAU])
 {
 
     for (int i=0;i<8 ;i++ ){
