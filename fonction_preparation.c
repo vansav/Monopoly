@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "windows.h"
-#include "biblio_fonction_préparation.h"
+#include "biblio_fonction_preparation.h"
 #include "structures.h"
 
 int saisirJoueursAvecTableau (char NOMSDESJOUEURS[4][15])
@@ -31,11 +31,11 @@ int saisirJoueursAvecTableau (char NOMSDESJOUEURS[4][15])
     return nombreDeJoueur;
 }
 
-int tirage_Au_Sort(int* ptde,int* ptde2,int* ptde3,int* ptde4)
+int tirerAuSort(int* ptde,int* ptde2,int* ptde3,int* ptde4)
 {
     int variable = 0;
     int valeurDeDes = 0;
-    srand( time( NULL ) );
+//    srand( time( NULL ) );
 
     printf("\nEntrez 1 pour lancer les des\n");
     scanf("%d", &variable);
@@ -66,13 +66,13 @@ int tirage_Au_Sort(int* ptde,int* ptde2,int* ptde3,int* ptde4)
     *ptde2 = rand() %7;
     valeurDeDes = *ptde + *ptde2;
     if(*ptde == *ptde2){
-        printf("Wahou quel chance !  UN DOUBLE !\n");
+        printf("Wahou quelle chance !  UN DOUBLE !\n");
         printf("\nEntrez 1 pour RElancer les des\n");
         scanf("%d", &variable);
 
         while(variable!=1)
         {
-            printf("\nVous avez mal jete les des, ressayer\n");
+            printf("\nVous avez mal jete les des, reessayer\n");
             printf("Entrez 1 pour lancer le de\n");
             scanf("%d", &variable);
         }
