@@ -4,24 +4,43 @@
 	<stdlib.h>
 	"windows.h"
 
-1638732617 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\main.c
+1638818528 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\main.c
 	<stdio.h>
 	<stdlib.h>
 	"windows.h"
 	"biblio_fonction_préparation.h"
 	"time.h"
+	"structures.h"
 
-1638732250 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\fonction_préparation.c
+1638818528 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\fonction_préparation.c
 	<stdio.h>
 	<stdlib.h>
 	"windows.h"
 	"biblio_fonction_préparation.h"
+	"structures.h"
 
-1638730098 c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\biblio_fonction_préparation.h
+1638818575 c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\biblio_fonction_préparation.h
+	"structures.h"
 
 1638350623 c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\fonction_préparation.c
 	<stdio.h>
 	<stdlib.h>
 	"windows.h"
 	"biblio_fonction_préparation.h"
+
+1638818528 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"biblio_fonction_préparation.h"
+	"structures.h"
+
+1638818528 c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\structures.h
+
+1638818528 source:c:\users\pierrot\documents\ecole\codeblocksproject\test_projet_lancement de\menus.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"biblio_fonction_préparation.h"
+	"structures.h"
 
